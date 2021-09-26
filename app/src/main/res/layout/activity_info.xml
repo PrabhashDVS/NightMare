@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/mainback"
+    tools:context=".infoactivities.InfoActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/firstCardView"
+        android:layout_width="370dp"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#4FD4C8"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="#4FD4C8">
+
+            <ImageView
+                android:id="@+id/imageViewInfo"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/greentea" />
+
+            <TextView
+                android:id="@+id/PhoneNameinInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewInfo"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/phonename"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mobilePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageViewInfo"
+                android:layout_alignRight="@+id/PhoneNameinInfo"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:text="@string/price"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/secondCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstCardView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#D0CDCD"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/addquantity"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="130dp"
+                android:background="@drawable/plus" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/addquantity"
+                android:text="0"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+            <ImageButton
+                android:id="@+id/subquantity"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/quantity"
+                android:background="@drawable/minus" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subquantity"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+
+                <RadioButton
+                    android:id="@+id/hotradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/black" />
+
+                <RadioButton
+                    android:id="@+id/coldRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blue" />
+
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/addbackcover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroup"
+                android:text="@string/back_cover" />
+
+            <CheckBox
+                android:id="@+id/addTemperdGlass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addbackcover"
+                android:text="@string/temperd_glass" />
+
+            <TextView
+                android:id="@+id/descriptioninfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addTemperdGlass"
+                android:layout_margin="10dp"
+                android:text="@string/iphone12"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+
+            <Button
+                android:id="@+id/addtocart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descriptioninfo"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#E91E63"
+                android:text="Add to cart"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+
+
