@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:background="@drawable/woodbac">
+
+    <EditText
+        android:id="@+id/condition_input"
+        android:layout_width="295dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="150dp"
+        android:background="#A4EFB990"
+        android:ems="10"
+        android:hint="Mobile Brand"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/model_input"
+        android:layout_width="301dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="35dp"
+        android:background="#A4EFB990"
+        android:ems="10"
+        android:hint="Mobile Model"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/condition_input" />
+
+    <EditText
+        android:id="@+id/brand_input"
+        android:layout_width="301dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="35dp"
+        android:background="#A4EFB990"
+        android:ems="10"
+        android:hint="Condition"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/model_input" />
+
+    <EditText
+        android:id="@+id/price_input"
+        android:layout_width="305dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="35dp"
+        android:background="#A4EFB990"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brand_input" />
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="309dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="35dp"
+        android:background="#A4EFB990"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price_input" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="355dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#DF671E1E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_input" />
+</androidx.constraintlayout.widget.ConstraintLayout>
