@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="signUp">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="nameText">User name</string>
+    <string name="phone">Phone</string>
+    <string name="phoneText">0776875431</string>
+    <string name="address">Address</string>
+    <string name="addressText">Your address</string>
+    <string name="email">Email</string>
+    <string name="emailText">example@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="passwordText">Your password</string>
+    <string name="btn_signUp">sign up</string>
+    <string name="haveAccount">Have an account?</string>
+    <string name="btn_return_signIn">Sign in</string>
+    <string name="myProfile">My Profile</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_signOut">Sign out</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="martinMobile">Martin Mobile</string>
+    <string name="signIn">Sign In</string>
+    <string name="signInEmail">Email</string>
+    <string name="btn_signIn">Sign in</string>
+    <string name="signInForgetPassword">Forget Password ?</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="user_Name">User Name</string>
+    <string name="confirmPwd">Confirm Password</string>
+    <string name="confirmPwdText">Confirm Password</string>
+    <string name="userName">User Name</string>
+    <string name="username">User Name</string>
+    <string name="signInPageText">Create New Account ?</string>
+
+
+    <string name="addMyCardDetails">Add My Card Details</string>
+    <string name="cardNoText">Card number</string>
+    <string name="cardHolderNameText">Cardholder Name</string>
+    <string name="monthYearText">MM/YY</string>
+    <string name="cvvText">CVV</string>
+    <string name="textOnAddMyCardDetails">Your payment information is safe with us</string>
+
+    <string name="editMyCardDetails">Edit My Card Details</string>
+    <string name="cardNo">Card number</string>
+    <string name="cardHolderName">Cardholder Name</string>
+    <string name="monthYear">MM/YY</string>
+    <string name="textOnEditDetails">Your payment information is safe with us</string>
+    <string name="cvv">CVV</string>
+
+    <string name="myCard">My Card</string>
+
+    <string name="btn_remove">Remove</string>
+    <string name="title_activity_example">example</string>
+    <string name="tv_CardNo">Card Number</string>
+    <string name="tv_cardHolder">Card Holder Name</string>
+    <string name="tv_expireDate">Card Expire Date</string>
+    <string name="tv_cvv">CVV</string>
+    <string name="viewMyCard">My Card Info</string>
+    <string name="btn_deleteCard">Remove MyCard</string>
+    <string name="btn_updateCardDetails">update my card details</string>
+
+
+</resources>
